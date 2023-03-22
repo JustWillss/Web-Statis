@@ -1,0 +1,182 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+  
+  body {
+	background-color: #eff1f2;;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+  }
+  
+  a {
+	text-decoration: none;
+	color: #333;
+  }
+  
+  /* Headernye */
+  header {
+	padding: 10px;
+  }
+  
+  nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  nav ul {
+  list-style-type: none;
+  padding-left: 50rem;
+  display: flex;
+  }
+  
+  nav li {
+	margin-left: 25px;
+  }
+  
+  nav a {
+	font-size: 18px;
+  }
+
+  nav a:hover {
+	text-decoration: underline;
+  }
+  
+  /* Background Blkg Nama Web */
+  .hero {
+	background-image: url('BG.webp');
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	margin:auto;
+	padding-top:200px;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	color: #5dc036;
+  }
+  
+  .hero h1 {
+	font-size: 48px;
+	text-align: center;
+	text-shadow: 2px 2px #333;
+  }
+  
+  /* About section styles */
+  .about h2 {
+	margin-top: -20px;
+	text-align: center;
+	margin-bottom: 20px;
+  }
+  
+  .about p {
+	max-width: 800px;
+	margin: auto;
+	text-align: justify;
+  }
+  
+  /* Bagian resep style*/
+  .blogresep {
+	padding: 50px 20px;
+  }
+  
+  .blogresep h2 {
+	text-align: center;
+	margin-bottom: 20px;
+  }
+  
+  .blog-grid {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 40px;
+  }
+   /*Bagian top resep style*/
+  .blogtopresep {
+	padding: 50px 35px;
+  }
+  
+  .blogtopresep h2 {
+	text-align: center;
+	margin-bottom: 20px;
+  }
+
+  .post {
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	overflow: hidden;
+	width: 400px;
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+  }
+  
+  .post-image {
+	height: 250px;
+	overflow: hidden;
+  }
+  
+  .post-image img {
+	width: 100%;
+	height: 100%;
+  }
+  
+  .post-content {
+	padding: 20px;
+  }
+  
+  .post-content h3 {
+	margin-bottom: 10px;
+  }
+  
+  .post-content p {
+	text-align: justify;
+	margin-bottom: 20px;
+  }
+  
+  .btn {
+	display: block;
+	background-color: #16a085;
+	color: #000000;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	width:50%
+  }
+
+  .btn:hover {
+	background-color: #0b8457;
+	cursor:pointer;
+	border-radius: 10px;
+  }
+
+  .btnb {
+	display: block;
+	color: #6e1f7d;
+	text-decoration: underline;
+	text-align: center;
+	padding:auto;
+	width:100px;
+	height:25px;
+	margin:auto;
+	border-radius: 10px;
+  }
+
+  .btnb:hover {
+	color: #9b4dca;
+	cursor:pointer;
+  }
+  
+  /*Contact styles */
+  .contact h2 {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+  }
