@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	/* ajnaljsnds */
-	/* dfndkjfndkjns*/
   }
   
   body {
@@ -80,6 +77,12 @@
 	max-width: 800px;
 	margin: auto;
 	text-align: justify;
+  }
+
+  .contact h2 {
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 20px;
   }
   
   /* Bagian resep style*/
@@ -177,207 +180,3 @@
 	cursor:pointer;
   }
   
-  /*Contact styles */
-  .contact h2 {
-	text-align: center;
-	margin-top: 10px;
-	margin-bottom: 20px;
-=======
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-  }
-  
-  body {
-	font-family: Arial, sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
-	color: #333;
-  }
-  
-  a {
-	text-decoration: none;
-	color: #333;
-  }
-  
-  /* Headernye */
-  header {
-	background-color: #f5f5f5;
-	padding: 10px;
-  }
-  
-  nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-  }
-  
-  nav ul {
-  list-style-type: none;
-  padding-left: 50rem;
-  display: flex;
-  }
-  
-  nav li {
-	margin-left: 25px;
-  }
-  
-  nav a {
-	font-size: 18px;
-  }
-  
-  /* Background Blkg Nama Web */
-  .hero {
-	background-image: url('BG.webp');
-	background-size: cover;
-	background-position: center;
-	height: 500px;
-	margin:auto;
-	padding-top:200px;
-	position: relative;
-	justify-content: center;
-	align-items: center;
-	color: #5dc036;
-  }
-  
-  .hero h1 {
-	font-size: 48px;
-	text-align: center;
-	text-shadow: 2px 2px #333;
-  }
-  
-  /* About section styles */
-  .about {
-	padding: 50px 20px;
-  }
-  
-  .about h2 {
-	text-align: center;
-	margin-bottom: 20px;
-  }
-  
-  .about p {
-	text-align: justify;
-  }
-  
-  /* Bagian section styles */
-  .services {
-	background-color: #f5f5f5;
-	padding: 50px 20px;
-	
-	
-  }
-  
-  .services h2 {
-	text-align: center;
-	margin-bottom: 20px;
-  }
-  
-  .services .service {
-	text-align: center;
-	margin-bottom: 40px;
-  }
-  
-  .services .service i {
-	font-size: 48px;
-	margin-bottom: 20px;
-	color: #333;
-  }
-  
-  .services .service h3 {
-	font-size: 24px;
-	margin-bottom: 10px;
-  }
-  
-  .services .service p {
-	text-align: justify;
-  }
-  
-  /* Bagian section style*/
-  .blog {
-	padding: 50px 20px;
-  }
-  
-  .blog h2 {
-	text-align: center;
-	margin-bottom: 20px;
-  }
-  
-  .blog-grid {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	gap: 40px;
-  }
-  
-  .post {
-	background-color: #fff;
-	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-	border-radius: 10px;
-	overflow: hidden;
-	width: 400px;
-	height: 450px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-  }
-  
-  .post-image {
-	height: 250px;
-	overflow: hidden;
-  }
-  
-  .post-image img {
-	width: 100%;
-	height: 100%;
-  }
-  
-  .post-content {
-	padding: 20px;
-  }
-  
-  .post-content h3 {
-	margin-bottom: 10px;
-  }
-  
-  .post-content p {
-	text-align: justify;
-	margin-bottom: 20px;
-  }
-  
-  .btn {
-	display: block;
-	background-color: #333;
-	color: #fff;
-	text-align: center;
-	padding: 10px;
-	border-radius: 10px;
-	width:50%
-  }
-
-  .btn:hover {
-	background-color: red;
-	cursor:pointer;
-	border-radius: 10px;
-  }
-
-  .btnb {
-	display: block;
-	background-color: #ad7474;
-	color: #000000;
-	text-align: center;
-	padding:auto;
-	width:100px;
-	height:25px;
-	margin:auto;
-	border-radius: 10px;
-  }
-
-  .btnb:hover {
-	background-color: red;
-	cursor:pointer;
-	border-radius: 10px;
->>>>>>> f18dc0924ff3a2da6bd9aeb8aaf124ac15329ec1
-  }
