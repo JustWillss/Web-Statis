@@ -4,25 +4,22 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Resep masakan</title>
+	<script src="script.js"></script>
 	<link rel="stylesheet" href="style.css">
 	<link rel="website icon" type="png"
-	href="logo - icon.png">
+	href="icons/logo - icon.png">
 </head>
 <body>
 	<header>
 		<nav>
-			<div class="logo">
-				<img src="logo.png" width="110px" heigth="110px">
-			</div>
-			<div class="menu">
+				<img src="icons/logo.png" width="110px" heigth="110px">
 				<ul>
 					<li><a href="#recipes">Recipes</a></li>
 					<li><a href="#about">About</a></li>
 					<li><a href="#toprecipes">Top Recipes</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
-			</div>
-		
+				<img src="mode/moon.png" id="mode">
 		</nav>
 		<div class="hero">
 			<h1>Welcome to Resep Sedap</h1>
@@ -38,7 +35,7 @@
 			<div class="blog-grid">
 				<div class="post">
 					<div class="post-image">
-						<img src="main-course.jpg" alt="Gambar">
+						<img src="images/main-course.jpg" alt="Gambar">
 					</div>
 					<div class="post-content">
 						<h3>Main course</h3>
@@ -48,7 +45,7 @@
 				</div>
 				<div class="post">
 					<div class="post-image">
-						<img src="drinks.jpg" alt="Gambar">
+						<img src="images/drinks.jpg" alt="Gambar">
 					</div>
 					<div class="post-content">
 						<h3>Drinks</h3>
@@ -58,7 +55,7 @@
 				</div>
 				<div class="post">
 					<div class="post-image">
-						<img src="dessert.jpg" height="250" alt="Gambar">
+						<img src="images/dessert.jpg" height="250" alt="Gambar">
 					</div>
 					<div class="post-content">
 						<h3>Dessert</h3>
@@ -76,7 +73,7 @@
 			<div class="blog-grid">
 				<div class="post">
 					<div class="post-image">
-						<img src="nasi-goreng-spesial-780x440.jpg" alt="Gambar">
+						<img src="images/nasi goreng.jpg" alt="Gambar">
 					</div>
 					<div class="post-content">
 						<h3>Nasi Goreng Spesial</h3>
@@ -86,7 +83,7 @@
 				</div>
 				<div class="post">
 					<div class="post-image">
-						<img src="file:///C:/Users/ASUS/Downloads/miekorea.webp" alt="Gambar">
+						<img src="images/miekorea.webp" alt="Gambar">
 					</div>
 					<div class="post-content">
 						<h3>jajyangmeon</h3>
@@ -96,7 +93,7 @@
 				</div>
 				<div class="post">
 					<div class="post-image">
-						<img src="chicken-biryani.webp" alt="Gambar">
+						<img src="images/chicken-biryani.webp" alt="Gambar">
 					</div>
 					<div class="post-content">
 						<h3>Chicken Biryani</h3>
@@ -134,3 +131,15 @@
 <br>
 	<p style="text-align: center;">&copy; 2023 Resep Makanan.</p>
 <br>
+<script>
+var mode = document.getElementById("mode");
+
+mode.onclick = function(){
+	document.body.classList.toggle("dark-theme");
+	if(document.body.classList.toggle("ligth-theme")){
+		mode.src = "mode/sun.png";
+	}else{
+		mode.src ="mode/moon.png";
+	}
+}
+</script>

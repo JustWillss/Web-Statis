@@ -3,18 +3,34 @@
 	margin: 0;
 	padding: 0;
   }
+
+:root{
+	--primary-color: #dedede;
+	--secondary-color: #212121;
+	--thirth-color: #ffffff
+}
+
+.dark-theme{
+	--primary-color: #303030;
+	--secondary-color: #ffffff;
+	--thirth-color: #424242;
+}
+  #mode {
+	width: 25px;
+	cursor: pointer;
+  }
   
   body {
-	background-color: #eff1f2;;
+	background-color: var(--primary-color);
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
-	color: #333;
+	color: var(--secondary-color);
   }
   
   a {
 	text-decoration: none;
-	color: #333;
+	color: var(--secondary-color);
   }
   
   /* Headernye */
@@ -30,7 +46,7 @@
   
   nav ul {
   list-style-type: none;
-  padding-left: 50rem;
+  padding-left: 48rem;
   display: flex;
   }
   
@@ -48,7 +64,7 @@
   
   /* Background Blkg Nama Web */
   .hero {
-	background-image: url('BG.webp');
+	background-image: url('images/BG.webp');
 	background-size: cover;
 	background-position: center;
 	height: 500px;
@@ -113,7 +129,7 @@
   }
 
   .post {
-	background-color: #fff;
+	background-color:var(--thirth-color);
 	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 	border-radius: 10px;
 	overflow: hidden;
@@ -149,7 +165,7 @@
   
   .btn {
 	display: block;
-	background-color: #16a085;
+	background-color: #146C94;
 	color: #000000;
 	text-align: center;
 	padding: 10px;
@@ -179,4 +195,3 @@
 	color: #9b4dca;
 	cursor:pointer;
   }
-  
