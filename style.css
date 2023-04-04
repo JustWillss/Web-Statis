@@ -41,8 +41,8 @@
   }
 
   .logo p{
-	font-size: 14px;
-    margin-left: 50px;
+	font-size: 20px;
+    margin-left: 80px;
     color: var(--secondary-color);
     font-weight: 400;
     text-transform: capitalize;
@@ -50,18 +50,6 @@
 	font-family: "Mansalva", cursive;
   }
 
-  @keyframes pulse {
-	0% {
-		transform: scale(1);
-	}
-	50% {
-		transform: scale(1.1);
-	}
-	100% {
-		transform: scale(1);
-	}
-  }
-  
   body {
 	background-color: var(--primary-color);
 	font-family: Arial, sans-serif;
