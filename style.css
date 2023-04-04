@@ -7,17 +7,59 @@
 :root{
 	--primary-color: #dedede;
 	--secondary-color: #212121;
-	--thirth-color: #ffffff
+	--thirth-color: #ffffff;
+	--forth-color: grey;
 }
 
 .dark-theme{
-	--primary-color: #303030;
-	--secondary-color: #ffffff;
-	--thirth-color: #424242;
+	--primary-color: #0f0f0f;
+	--secondary-color: #f2f2f2;
+	--thirth-color: #121212;
+	--forth-color: white;
 }
   #mode {
 	width: 25px;
 	cursor: pointer;
+  }
+
+  @font-face {
+	font-family: "Lobster";
+	src:url(Fonts/Lobster-Regular.ttf)
+  }
+
+  .logo h3{
+	color: #e74c3c;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 0.65;
+    font-family: 'Lobster', cursive;
+  }
+
+  @font-face {
+	font-family: "Mansalva";
+	src:url(Fonts/Mansalva-Regular.ttf)
+  }
+
+  .logo p{
+	font-size: 14px;
+    margin-left: 50px;
+    color: var(--secondary-color);
+    font-weight: 400;
+    text-transform: capitalize;
+    font-style: italic;
+	font-family: "Mansalva", cursive;
+  }
+
+  @keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
   }
   
   body {
@@ -25,7 +67,6 @@
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
-	color: var(--secondary-color);
   }
   
   a {
@@ -46,7 +87,7 @@
   
   nav ul {
   list-style-type: none;
-  padding-left: 48rem;
+  padding-left: 49rem;
   display: flex;
   }
   
@@ -73,7 +114,7 @@
 	position: relative;
 	justify-content: center;
 	align-items: center;
-	color: #5dc036;
+	color:var(--forth-color);
   }
   
   .hero h1 {
@@ -83,6 +124,9 @@
   }
   
   /* About section styles */
+  .about {
+	color: var(--secondary-color);
+  }
   .about h2 {
 	margin-top: -20px;
 	text-align: center;
@@ -103,6 +147,7 @@
   
   /* Bagian resep style*/
   .blogresep {
+	color: var(--secondary-color);
 	padding: 50px 20px;
   }
   
@@ -120,6 +165,7 @@
   }
    /*Bagian top resep style*/
   .blogtopresep {
+	color: var(--secondary-color);
 	padding: 50px 35px;
   }
   
@@ -151,6 +197,7 @@
   }
   
   .post-content {
+	color: var(--secondary-color);
 	padding: 20px;
   }
   
@@ -164,19 +211,17 @@
   }
   
   .btn {
-	display: block;
-	background-color: #146C94;
-	color: #000000;
-	text-align: center;
-	padding: 10px;
-	border-radius: 10px;
-	width:50%
+	background-color: var(--secondary-color);
+	color: var(--primary-color);
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
   }
 
   .btn:hover {
-	background-color: #0b8457;
+	background-color: var(--primary-color);
 	cursor:pointer;
-	border-radius: 10px;
+	color: var(--secondary-color);
   }
 
   .btnb {
@@ -194,4 +239,8 @@
   .btnb:hover {
 	color: #9b4dca;
 	cursor:pointer;
+  }
+
+  .copyright {
+	color: var(--secondary-color);
   }
